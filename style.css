@@ -1,0 +1,376 @@
+
+@font-face {
+	font-family: fwy;
+	src: url('fonts/fwy.ttf');
+}
+
+@font-face {
+	font-family: gabriola;
+	src: url('fonts/gabriola.ttf');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: fwy;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	border: 0px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px 25px;
+}
+
+p {
+	font-family: gabriola;
+	line-height: 40px;
+}
+
+footer {
+	background-color: rgb(197,158,151);
+	color: white;
+	text-align: center;
+}
+
+header {
+	/*background-color: rgb(230,210,209);
+	border: 1px solid #000;
+	height: 150px;*/
+	background-color: rgb(230,210,209);
+	display: flex;
+}
+
+input {
+	border: 0px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.banner-img {
+	margin: 20px; 
+	width: 200px;
+}
+
+.btn {
+	border: 0px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px 25px;
+}
+
+.btnyellow {
+	background-color: rgb(204,141,10);
+	color: white;
+}
+
+.btnyellow:hover {
+	background-color: rgb(154,91,0);
+}
+
+.btnwhite {
+	background-color: white;
+	color: rgb(151,96,53);
+	font-size: 40px;
+	margin: 40px 0px 40px 0px;
+	padding: 20px;
+}
+
+.btnwhite:hover {
+	background-color: rgb(205,205,205);
+}
+
+/*.div-dark {
+	background-color: ;
+	color: white;
+}
+
+.div-light {
+	background-color: ;
+	color: ;
+}*/
+
+.header-btn {
+	margin: 0px 10px;
+}
+
+.sep-bar {
+	display: block;
+	width: 100%;
+}
+
+.sn-icon {
+	margin: 0px 0px 15px 0px;
+}
+
+.seta-baixo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 0px;
+  width: 0; 
+  height: 0; 
+
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #FFF;
+}
+
+#flor-rodape-dir {
+	margin: 5px 30px 30px 0px;
+}
+
+#flor-rodape-esq {
+	margin: 5px 0px 30px 30px;
+}
+
+#buttons {
+	/*background-color: green;
+	position: relative;
+	left: 900px;
+	bottom: 100px;
+	width: 412px;*/
+	padding: 35px 20px 0px 0px;
+	text-align: right;
+}
+
+
+#div1, #div3 {
+	/*background-color: rgb(197,158,151);
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	position: relative;*/
+}
+
+#div4 {
+	text-align: center;
+}
+
+#fb-icon {
+	margin-right: 5px;
+}
+
+#ig-icon {
+	margin-left: 5px;
+}
+
+/*
+#div2, #div4 {
+	background-color: rgb(230,210,209);
+	color: rgb(170,119,77);
+	margin: 0px;
+	padding: 0px;
+}
+
+#mulher1 {
+	top: 200px;
+	left: 100px;
+	position: absolute;
+}*/
+
+#logo {
+    /*background-color: pink;*/ 
+	display: block;
+	padding: 10px 30px;
+	width: 30%;
+}
+
+#mulher1 {
+	margin: -100px 0px 0px -400px; 
+	position: absolute;
+	width: 350px;
+}
+
+#mulher2 {
+	margin: 100px 0px 0px -400px;
+	position: absolute;
+	width: 300px; 
+}
+
+#section1 {
+	display: flex;
+}
+
+#section2 {
+	display: flex;
+}	
+
+#section-ebook {
+	background-color: rgb(197,158,151); 
+	display: flex;
+}
+
+#section-insta {
+	background-color: rgb(230,210,209); 
+	display: block; 
+	text-align: center;
+}
+
+#left-header-div {
+    width: 50%;
+}
+
+#right-header-div {
+	background-color: rgb(230,210,209); 
+	width: 50%;
+}
+
+#header-button {
+	color: white; 
+	text-decoration: none;
+}
+
+#left-sec1-div {
+	background-color: rgb(197,158,151); 
+	width: 50%; 
+	padding-top: 200px; 
+	text-align: center;
+}
+
+#right-sec1-div {
+	background-color: rgb(197,158,151); 
+	color: white; 
+	width: 50%;
+}
+
+#sec1-paragraph {
+	background-color: rgb(197,158,151); 
+	font-size: 40px; 
+	margin: 150px 50px 0px 50px; 
+	text-align: justify;
+}
+
+#author {
+	background-color: rgb(197,158,151); 
+	font-family: fwy; 
+	font-size: 30px; 
+	margin-left: 250px;
+}
+
+#left-sec2-div {
+	background-color: rgb(230,210,209); 
+	color: rgb(151,96,53); 
+	width: 50%;
+}
+
+#right-sec2-div {
+	background-color: rgb(230,210,209); 
+	margin: 0px 0px 0px 0px; 
+	width: 50%; 
+	text-align: center;
+}
+
+#sec2-paragraph {
+	font-size: 30px; 
+	margin: 150px 60px 150px 60px; 
+	text-align: justify; 
+	text-indent: 150px;
+}
+
+#left-sec-ebook-div {
+	background-color: rgb(197,158,151); 
+	margin-top: 50px; 
+	text-align: center; 
+	width: 50%;
+}
+
+#right-sec-ebook-div {
+	display: block; 
+	margin-top: 100px; 
+	text-align: center; 
+	width: 50%;
+}
+
+#img-ebook {
+	margin: 40px 0px 0px -500px; 
+	position: absolute;
+	width: 500px;
+}
+
+#img-ebook-leaves {
+	margin-bottom: 50px;
+	width: 550px;
+}
+
+#ebook-header {
+	color: white; 
+	font-size: 30px; 
+	margin-bottom: 50px;
+}
+
+#buttons-div {
+	background-color: rgb(197,158,151);
+}
+
+#name-label {
+	color: rgb(151,96,53); 
+	font-size: 20px; 
+	margin-left: -540px;
+}
+
+#name-input {
+	color: gray; 
+	font-family: verdana; 
+	font-size: 20px; 
+	margin-bottom: 20px; 
+	padding: 20px; 
+	width: 600px;
+}
+
+#email-label {
+	color: rgb(151,96,53); 
+	font-size: 20px; 
+	margin-left: -540px;
+}
+
+#email-input {
+	color: gray; 
+	font-family: verdana; 
+	font-size: 20px; 
+	margin-bottom: 50px; 
+	padding: 20px; 
+	width: 600px;
+}
+
+#insta-folhas-left {
+	margin: 0px 0px 0px -550px; 
+	position: absolute; 
+	width: 150px;
+}
+
+#insta-folhas-right {
+	margin: 250px 0px 0px 400px; 
+	position: absolute; 
+	transform: rotateY(180deg); 
+	width: 150px;
+}
+
+#btn-testando-teste {
+	margin: 30px 0px; 
+	padding: 10px 40px;
+}
+
+#btn-testando-teste-link {
+	color: white; 
+	text-decoration: none;
+}
+
+#btn-testando {
+	font-size: 20px; 
+	margin: 30px 0px; 
+	padding: 10px 40px;
+}
+
+#leaves-sec1 {
+	width: 400px;
+}
+
+#leaves-sec2 {
+	width: 450px;
+}
